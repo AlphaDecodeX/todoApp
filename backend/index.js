@@ -5,7 +5,7 @@ import cors from 'cors'; // Import the cors package
 const app = express();
 const port = 4000;
 
-const uri = "mongodb+srv://lpsk5713:lpsk5713@cluster0.2k6au5o.mongodb.net/?retryWrites=true&w=majority";
+const uri = "YOUR_URL_FROM_MONGODB";
 
 mongoose.connect(uri, {
   useNewUrlParser: true,
